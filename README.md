@@ -1,3 +1,3 @@
 # Portfólio
-    Minha pasta de arquivos do site portifólio
+    Minha pasta de arquivos do site portfólio
  

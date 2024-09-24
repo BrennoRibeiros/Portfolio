@@ -47,7 +47,11 @@ section#intro {
     justify-content: center;
 }
 
-section#intro h1, p {
+section#intro h1{
+    margin: 5px;
+}
+
+section#intro p {
     margin: 5px;
 }
 
@@ -74,6 +78,10 @@ section#projetos {
 }
 
 section#projetos article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: whitesmoke;
     margin: auto;
     min-width: 375px;
@@ -81,9 +89,13 @@ section#projetos article {
     min-height: 200px;
 }
 
-section#projetos img {
+article > img {
+    width: 300px;
     height: 200px;
-    float: left;
+}
+
+article > aside {
+    max-width: 500px;
 }
 
 footer {

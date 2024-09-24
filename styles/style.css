@@ -9,7 +9,10 @@ body {
 }
 
 header {
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.322);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.322);
 }
 
 header > img {
@@ -17,42 +20,69 @@ header > img {
     width: 100px;
 }
 
-header > nav {
-    display: inline-flex;
-    float: inline-end;
+nav {
+    display: inline-table;
 }
 
 nav > a {
     color: black;
     text-decoration: none;
-    padding: 16px 7px;
+    padding: 14px 7px;
 }
 
 nav > a:hover {
     color: blue;
-    border-bottom: 4px solid blue;
+    border-bottom: 3px solid blue;
 }
 
 main {
     text-align: center;
 }
 
-main > section#intro {
-    margin: 200px 0px;
+section#intro {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-main > section#projetos {
+section#intro h1, p {
+    margin: 5px;
+}
+
+section#intro div {
+    display: inline-table;
+    margin: 10px;
+}
+
+section#intro a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+section#intro a:hover {
+    background-color: rgb(0, 0, 180);
+}
+
+section#projetos {
     background-color: white;
-    padding: 50px;
 }
 
 section#projetos article {
     background-color: whitesmoke;
-    padding: 20px;
+    margin: auto;
+    min-width: 375px;
+    max-width: 1000px;
+    min-height: 200px;
 }
 
 section#projetos img {
-    display: block;
+    height: 200px;
     float: left;
 }
 

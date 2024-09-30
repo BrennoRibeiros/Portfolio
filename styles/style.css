@@ -91,6 +91,11 @@ section#projetos article {
     padding: 25px;
 }
 
+section#projetos h2 {
+    padding: 25px;
+    text-decoration: underline;
+}
+
 article > img {
     width: 300px;
     height: 200px;
@@ -123,7 +128,7 @@ aside a {
     border-radius: 10px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.308);
     margin: 5px;
-    padding: 3px;
+    padding: 4px 8px;
 }
 
 .destaque {

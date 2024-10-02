@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: whitesmoke;
 }
 
@@ -31,8 +33,8 @@ nav > a {
 }
 
 nav > a:hover {
-    color: blue;
-    border-bottom: 3px solid blue;
+    color: #3d52f2;
+    border-bottom: 3px solid #3d52f2;
 }
 
 main {
@@ -48,6 +50,7 @@ section#intro {
 }
 
 section#intro h1{
+    font-size: 2em;
     margin: 5px;
 }
 
@@ -63,18 +66,23 @@ section#intro div {
 section#intro a {
     text-decoration: none;
     color: white;
-    background-color: blue;
+    background-color: #3d52f2;
     border-radius: 4px;
     padding: 10px 20px;
     margin: 5px;
 }
 
 section#intro a:hover {
-    background-color: rgb(0, 0, 180);
+    background-color: #2e3fbd;
 }
 
 section#projetos {
     background-color: white;
+}
+
+section#projetos h2 {
+    padding: 25px;
+    text-decoration: underline;
 }
 
 section#projetos article {
@@ -89,11 +97,6 @@ section#projetos article {
     min-height: 200px;
     border-radius: 10px;
     padding: 25px;
-}
-
-section#projetos h2 {
-    padding: 25px;
-    text-decoration: underline;
 }
 
 article > img {
@@ -115,7 +118,7 @@ aside p {
 }
 
 aside div {
-    display: inline-flex;
+    display: inline-table;
 }
 
 aside a {
@@ -124,15 +127,10 @@ aside a {
     background-color: rgba(255, 255, 255, 0.644);
     color: black;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 10px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.308);
     margin: 5px;
     padding: 4px 8px;
-}
-
-.destaque {
-    font-weight: bold;
 }
 
 footer {

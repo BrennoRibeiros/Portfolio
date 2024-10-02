@@ -93,7 +93,7 @@ section#projetos article {
     flex-wrap: wrap;
     background-color: whitesmoke;
     margin: auto;
-    min-width: 375px;
+    min-width: 300px;
     max-width: 1000px;
     min-height: 200px;
     border-radius: 10px;
@@ -127,11 +127,17 @@ aside a {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.644);
     color: black;
+    font-weight: bold;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.308);
     margin: 5px;
     padding: 4px 8px;
+}
+
+aside a:hover {
+    background-color: rgb(224, 224, 224);
+    transition-duration: 0.5s;
 }
 
 footer {

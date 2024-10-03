@@ -1,0 +1,29 @@
+main {
+    min-width: 280px;
+    max-width: 730px;
+    margin: auto;
+    padding: 32px 12px;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.contatos {
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, .2);
+}
+
+main a {
+    color: black;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}

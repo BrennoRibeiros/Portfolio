@@ -19,3 +19,7 @@ main a {
 section#certificados {
     text-align: center;
 }
+
+section#certificados picture {
+    margin-bottom: 10px;
+}

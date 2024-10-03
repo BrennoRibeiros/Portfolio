@@ -79,6 +79,7 @@ section#intro a:hover {
 
 section#projetos {
     background-color: white;
+    padding: 0 12px;
 }
 
 section#projetos h2 {
@@ -93,11 +94,11 @@ section#projetos article {
     flex-wrap: wrap;
     background-color: whitesmoke;
     margin: auto;
-    min-width: 300px;
+    min-width: 280px;
     max-width: 1000px;
     min-height: 200px;
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px 0;
 }
 
 article > img {

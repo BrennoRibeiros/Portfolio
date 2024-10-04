@@ -94,6 +94,7 @@ section#projetos article {
     flex-wrap: wrap;
     background-color: whitesmoke;
     margin: auto;
+    margin-top: 20px;
     min-width: 280px;
     max-width: 1000px;
     min-height: 200px;
@@ -134,6 +135,10 @@ aside a {
 aside a:hover {
     background-color: rgb(224, 224, 224);
     transition-duration: 0.5s;
+}
+
+aside a img {
+    margin-right: 4px;
 }
 
 footer {
